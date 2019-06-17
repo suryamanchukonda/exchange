@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import classes from './Header.css';
 
 class Header extends Component{
+    state = {
+        
+    };
+    
+
     render(){
         return(
             <div className={classes.header}>
@@ -11,6 +16,7 @@ class Header extends Component{
                     <a href="#buy">Buy</a>
                     <a href="#sell">Sell</a>
                     <a href="#contactus">Contact us</a>
+                    <a href="#login&signup">Login & Signup</a>
                 </div>
             </div>
         )
